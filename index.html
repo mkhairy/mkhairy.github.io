@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34667865-3"></script> -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-34667865-3');
+        </script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            Mahmoud Khairy
+        </title>
+
+        <!-- SITE FAVICON -->
+
+        <link rel="canonical" href="https://mahmoud-khairy.github.io">
+
+        <!-- FAVICON -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    </head>
+
+<!--
+1- Mainpage: What is accel-sim, features, image of it accel-sim frmaework and Future plan, what should you cite
+2- Codebase, link to github
+3- Tutorial, wait for an upcoming tutorial at MICRO
+4- Correlation results (volta)
+5- Publications
+6- FAQs (gpgpu-sim vs accel-sim)
+7- Contact, google group
+-->
+
+    <body>
+	
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Software">Software</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+      <div class="jumbotron">
+      <div class="container"><center>
+            <br><br>
+			<header>
+          <h1>Mahmoud Khairy</h1>
+          <h2>Purdue University</h2>
+        </header>
+		
+            <img src="assets/img/mypic.png"
+            class="img-fluid" width="40%"/><br><br>
+
+        <p class="lead">
+          I am a 4th year PhD student in the Department of Computer Engineering at Purdue University. I am a research assistant in 
+           Accelerator Architecture Lab at Purdue (AALP) advised by Professor Tim Rogers. My research interests include all aspects of computer architecture, compilers and systems.
+		   My current focus is to overcome the slowing growth of Moore's law by building scalable and efficient hardware, compilers and systems for exa-scale computing and deep learning applications. 
+			I received my BSc and MSc in Computer Engineering from Cairo University, Egypt.<br>
+			<br>
+			Quick Links: <a href="https://scholar.google.com.eg/citations?user=mZWwn2sAAAAJ&hl=en">Google Scholar</a> - <a href="https://www.linkedin.com/in/mahmoud-khairy-0b999640/">Linkdin</a> - <a href="https://github.com/mkhairy">Github</a> - <a href="https://medium.com/@khairy2011">Medium</a>
+            </p>
+      </center></div>
+      </div>
+	  
+
+        <hr>
+
+        <h3>Recent News</h3>
+               <a name="news"></a>
+            <ul>
+                <li><b>August 2020</b>: I got interested in writing my technical blogs. My <a href="https://medium.com/@khairy2011/tpu-vs-gpu-vs-cerebras-vs-graphcore-a-fair-comparison-between-ml-hardware-3f5a19d89e38">first article</a> on Medium is about ML hardware comparison.</li>
+			    <li><b>July 2020</b>: A paper accepted at MICRO 2020. </li>
+			    <li><b>June 2020</b>: <a href="https://accel-sim.github.io/">Accel-Sim</a> is released. </li>
+                <li><b>March 2020</b>: A paper accepted at ISCA 2020. </li>
+            </ul>
+            
+        <hr>
+
+        <h3>Publications</h3>
+            <a name="Publications"></a>
+<ul>
+<li><p><b><span style="color: FireBrick ">(MICRO 2020)</span></b> <b>Mahmoud Khairy</b>, Vadim Nikiforov, David Nellans, and Timothy G. Rogers <br />
+<i>Locality-Centric Data and Threadblock Management for Massive GPUs</i>, <br />
+In <a href="https://www.microarch.org/micro53/"> The 53rd IEEE/ACM International Symposium on Microarchitecture</a>, Virtual Event, October 2020 <br />
+(Acceptance rate: 82/422 &nbsp;= %18) <br />
+[Paper] <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(ISCA 2020)</span></b> <b>Mahmoud Khairy</b>, Jason Shen, Tor M. Aamodt, and Timothy G. Rogers <br />
+<i>Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling</i>, <br />
+In <a href="https://iscaconf.org/isca2020/"> The 47th International Symposium on Computer Architecture</a>, Virtual Event, May 2020 <br />
+(Acceptance rate: 77/421 &nbsp;= %18) <br />
+[<a href="https://www.iscaconf.org/isca2020/papers/466100a473.pdf">Paper</a>]
+[<a href="Docs/ISCA2020-presentation-v3.0.pptx">Slides</a>]
+[<a href="https://drive.google.com/drive/folders/1Q4-y6QTzS_1JoRmTUV31QKpOES9ZY8oG?usp=sharing">Video</a>]
+[<a href="https://accel-sim.github.io/">Release</a>] <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(ISPASS 2019 Poster)</span></b> <b>Mahmoud Khairy</b>, Jain Akshay, Tor M. Aamodt, and Timothy G. Rogers <br />
+<i>A Detailed Model for Contemporary GPU Memory Systems</i>, <br />
+In <a href="https://www.ispass.org/ispass2019/"> The 2019 IEEE International Symposium on Performance Analysis of Systems and Software</a>, Wisconsin, March 2019 <br />
+[<a href="Docs/ispass2019.pdf">Paper</a>]
+[<a href="Docs/2019-ispass-poster-v2.pdf">Poster</a>]
+ <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(JPDC 2019)</span></b> <b>Mahmoud Khairy</b>, Amr G. Wassal, and Mohamed Zahran <br />
+<i>A Survey of Architectural Approaches for Improving GPGPU Performance, Programmability and Heterogeneity</i>, <br />
+In <a href="https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing"> The Elsevier Journal of Parallel and Distributed Computing 127 (2019): 65-88</a>, February 2019 <br />
+[<a href="Docs/jpdc-survey.pdf">Paper</a>]
+ <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(SIGMETRICS 2018)</span></b> Jain Akshay*, <b>Mahmoud Khairy*</b>, Timothy G. Rogers, *First Coauthors<br />
+<i>A Quantitative Evaluation of Contemporary GPU Simulation Methodology</i>, <br />
+In <a href="https://www.sigmetrics.org/sigmetrics2018/"> The ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems </a>, Irvine, California, June 2018 <br />
+[<a href="Docs/SigmetricsPaper.pdf">Paper</a>]
+[<a href="Docs/SigmetricsPoster.pdf">Poster</a>]
+[<a href="Docs/SigmetricsPresentation.pptx">Slides</a>]
+ <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(TPDS 2016)</span></b> <b>Mahmoud Khairy</b>, Mohamed Zahran, and Amr G. Wassal,<br />
+<i>SACAT: Streaming-Aware Conflict-Avoiding Thrashing-Resistant GPGPU Cache Management Scheme</i>, <br />
+In <a href="https://www.computer.org/csdl/journal/td"> The IEEE Transcation on Parallel and Distributed Systems </a> <br />
+[<a href="Docs/sacat.pdf">Paper</a>]
+ <br />
+</p>
+</li>
+</ul>
+
+<ul>
+<li><p><b><span style="color: FireBrick ">(GPGPU 2015)</span></b> <b>Mahmoud Khairy</b>, Mohamed Zahran, and Amr G. Wassal,<br />
+<i>Efficient Utilization of GPGPU Cache Hierarchy</i>, <br />
+In <a href="https://ece.northeastern.edu/groups/nucar/GPGPU/GPGPU8/"> The8th Workshop on General Purpose Computing using GPUs (GPGPU8),
+co-located with 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPOPP)</a> <br />
+[<a href="Docs/gpgpu.pdf">Paper</a>]
+[<a href="Docs/GPGPUPresentation.pptx">Slides</a>]
+ <br />
+</p>
+</li>
+</ul>
+      </div> <!-- /container -->
+
+        <hr>
+
+        <h3>Software</h3>
+               <a name="Software"></a>
+            <ul>
+                <li><a href="https://accel-sim.github.io/">Accel-Sim</a></li>
+            </ul>
+            
+        <hr>
+
+        <h3>Contact</h3>
+               <a name="Contact"></a>
+            <ul>
+                <li>Email: abdallm(AT)purdue.edu</a></li>
+            </ul>
+            
+        <hr>
+		
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
